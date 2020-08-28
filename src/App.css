@@ -1,3 +1,8 @@
+* {
+  font-family: "Meera Inimai", sans-serif;
+  font-family: "K2D", sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,49 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* 
+.navbar.navbar-dark .navbar-toggler-icon {
+  
+  width: 30px;
+  height: 30px;
+
+} */
+
+@media (max-width: 994px) {
+  /* profile image */
+  .rounded-circle {
+    display: none !important;
+  }
+}
+
+.subnav {
+  position: relative !important;
+  display: grid !important;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: left !important;
+  justify-content: flex-start !important;
+}
+
+@media (max-width: 575px) {
+  .subnav {
+    position: relative !important;
+    display: grid !important;
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .MuiGrid-container {
+    width: 100%;
+    display: contents !important;
+    flex-wrap: wrap !important;
+    box-sizing: border-box;
+  }
+}
+
+.rounded-circle {
+  border-radius: 100% !important;
+  width: 50px;
+  height: 50px;
 }

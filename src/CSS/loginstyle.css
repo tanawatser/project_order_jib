@@ -1,0 +1,101 @@
+#classicformpage .view {
+    background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(11).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+  }
+  
+  #classicformpage .gradient {
+    background: -webkit-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(161, 161, 161, 0.4) 100%
+    );
+    background: -webkit-gradient(
+      linear,
+      45deg,
+      from(rgba(0, 0, 0, 0.7), rgba(213, 212, 214, 0.4) 100%)
+    );
+    background: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.7),
+      rgba(238, 238, 238, 0.4) 100%
+    );
+  }
+  
+  /* card login  */
+  #classicformpage .card {
+    background-color: #e0dfdf2a;
+    width: 450px;
+  }
+  
+  #classicformpage h6 {
+    line-height: 1.7;
+  }
+  
+  #classicformpage .navbar {
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  
+  #classicformpage .top-nav-collapse {
+    background: #424f95 !important;
+  }
+  
+  @media (max-width: 768px) {
+  
+  
+        #classicformpage  .view{
+          background: -moz-linear-gradient(45deg, #1C73F4, #9BF3FB  100%)!important;
+          background: -webkit-linear-gradient(45deg #1C73F4, #9BF3FB   100%)!important;
+          background: linear-gradient(45deg, #1C73F4, #9BF3FB  100%)!important;
+  
+      }
+  
+        #classicformpage  .img-logo {
+         display: none;
+        
+        }
+  
+        #classicformpage  .btn-blue-grey {
+          background: #9ACCD1 !important;
+          color: #000;
+         
+         }
+  
+         #classicformpage .container {
+           height: 100% !important;
+         }
+         
+    }
+  
+  
+  #classicformpage label {
+    color: #000 !important;
+  }
+  
+  /* ----------------------------------------- */
+  
+  .forgot-right{
+  position: absolute;
+   right: 0px;
+  }
+  
+  @media (max-width: 1500px) {
+  .mt-xl-5, .my-xl-5 {
+    margin-top: 3rem!important
+  }
+  
+  }
+  
+  
+  .img-logo {
+    width: 350px;
+    position: fixed;
+    top:50px;
+    
+  }
+  
+  #classicformpage .container {
+    height: 50%;
+  }
